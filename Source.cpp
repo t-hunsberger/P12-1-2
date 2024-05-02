@@ -11,7 +11,7 @@ void countWordsAndChars(const string& filename, int& wordCount, int& charCount) 
         cout << "Unable to open file " << filename << endl;
         return;
     }
-     
+      
     string word;
     wordCount = 0;
     charCount = 0;
